@@ -6,6 +6,8 @@ next_button.onclick = next;
 
 var nowplaying = document.getElementById("nowplaying");
 
+var dumbguard = false;
+
 
 var songlist = [
     ["/assets/audio/BatCountry.mp3", "Avenged Sevenfold - Bat Country"],
@@ -14,6 +16,12 @@ var songlist = [
 ];
 
 function next() {
+    if (dumbguard) {
+        makeSkeleton();
+    } else {
+        dumbguard = true;
+    }
+
     do {
         var next_song = songlist[Math.floor(Math.random() * songlist.length)];
     } while (next_song === previous);
