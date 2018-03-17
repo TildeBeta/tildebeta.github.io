@@ -4,10 +4,4 @@
     white-space: nowrap;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 0;
-}
-
-.fire {
-    display: inline-block;
-    margin: -1px;
 }
