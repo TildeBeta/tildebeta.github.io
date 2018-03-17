@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
+
 .firecontainer {
     position: fixed;
     bottom: 0;
@@ -11,4 +13,19 @@
     left: 50%;
     transform: translateX(-50%) translateY(30%);
     bottom: 50%;
+}
+
+.playingcontainer {
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+#next,
+#nowplaying {
+    color: red;
+    display: block;
+    font-family: Sedgwick Ave Display;
+    font-size: 40px;
+    margin-top: 5px;
 }
