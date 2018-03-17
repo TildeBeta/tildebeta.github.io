@@ -1,0 +1,12 @@
+.firecontainer {
+    position: fixed;
+    bottom: 0;
+    white-space: nowrap;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.fire {
+    display: inline-block;
+    margin: -2px;
+}
