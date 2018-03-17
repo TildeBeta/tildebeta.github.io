@@ -29,3 +29,8 @@
     font-size: 40px;
     margin-top: 5px;
 }
+
+#skeleton {
+    position: absolute;
+    z-index: 100;
+}
