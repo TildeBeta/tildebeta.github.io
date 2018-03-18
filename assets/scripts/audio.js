@@ -10,9 +10,12 @@ var dumbguard = false;
 
 
 var songlist = [
-    ["/assets/audio/BatCountry.mp3", "Avenged Sevenfold - Bat Country"],
-    ["/assets/audio/LakeBodom.mp3",  "Children of Bodom - Lake Bodom" ],
-    ["/assets/audio/Megitsune.mp3",  "Babymetal - Megitsune"          ],
+    ["/assets/audio/BatCountry.mp3",       "Avenged Sevenfold - Bat Country"],
+    ["/assets/audio/LakeBodom.mp3",        "Children of Bodom - Lake Bodom" ],
+    ["/assets/audio/Megitsune.mp3",        "Babymetal - Megitsune"          ],
+    ["/assets/audio/RainingBlood.mp3",     "Slayer - Raining Blood"         ],
+    ["/assets/audio/One.mp3",              "Metallica - One"                ],
+    ["/assets/audio/MasterOfPuppets.mp3",  "Metallica - Master of Puppets"  ],
 ];
 
 function next() {
