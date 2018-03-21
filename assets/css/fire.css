@@ -3,7 +3,9 @@
 .firecontainer {
     position: fixed;
     bottom: 0;
-    white-space: nowrap;
+    background-image: url("/assets/fire.gif");
+    background-repeat: repeat-x;
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -19,6 +21,10 @@
     display: flex;
     align-items: center;
     flex-flow: column nowrap;
+}
+
+.sizer {
+    visibility: hidden;
 }
 
 #next,
